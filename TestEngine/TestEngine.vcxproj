@@ -128,10 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\lib\glad.c" />
+    <ClCompile Include="src\lib\stb.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\fragment_core.glsl" />
+    <None Include="assets\fragment_core2.glsl" />
+    <None Include="assets\vertex_core.glsl" />
     <None Include="glfw3.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
